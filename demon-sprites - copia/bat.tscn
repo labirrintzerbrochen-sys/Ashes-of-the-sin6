@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://rglhe3hj7skm"]
+
+[ext_resource type="Texture2D" uid="uid://dcf3r3x7m8p6p" path="res://Personajes/bat/bat attack-1 1.png" id="1_0g5lo"]
+[ext_resource type="Texture2D" uid="uid://bnmm2ht5s5sv5" path="res://Personajes/bat/bat attack-1 2.png" id="2_0gx7n"]
+[ext_resource type="Texture2D" uid="uid://bl776ngsy6kxd" path="res://Personajes/bat/bat attack-1 3.png" id="3_1o6k5"]
+[ext_resource type="Texture2D" uid="uid://bmvgykjs3atcd" path="res://Personajes/bat/bat attack-1 4.png" id="4_a7fvh"]
+[ext_resource type="Texture2D" uid="uid://rnth803op676" path="res://Personajes/bat/bat attack-1 5.png" id="5_xt4g4"]
+[ext_resource type="Texture2D" uid="uid://dbpl7wv44h4ip" path="res://Personajes/bat/bat attack-1 6.png" id="6_0rwg7"]
+[ext_resource type="Texture2D" uid="uid://bf5vjy44jmamv" path="res://Personajes/bat/bat attack-1 7.png" id="7_55sqa"]
+[ext_resource type="Texture2D" uid="uid://06278t7onfp3" path="res://Personajes/bat/bat attack-1 8.png" id="8_brabc"]
+[ext_resource type="Texture2D" uid="uid://dt1ktlorajcxf" path="res://Personajes/bat/bat attack2 1.png" id="9_palai"]
+[ext_resource type="Texture2D" uid="uid://d4lc7hs8sb4b0" path="res://Personajes/bat/bat attack2 2.png" id="10_q74g2"]
+[ext_resource type="Texture2D" uid="uid://uben5e6q4lef" path="res://Personajes/bat/bat attack2 3.png" id="11_km7xw"]
+[ext_resource type="Texture2D" uid="uid://bboo4o58nwq5c" path="res://Personajes/bat/bat attack2 4.png" id="12_c7cyk"]
+[ext_resource type="Texture2D" uid="uid://cmqxc4matp0tt" path="res://Personajes/bat/bat attack2 5.png" id="13_4e6um"]
+[ext_resource type="Texture2D" uid="uid://bmois8bgme3ny" path="res://Personajes/bat/bat attack2 6.png" id="14_on2xf"]
+[ext_resource type="Texture2D" uid="uid://bn5dgoss5s8ly" path="res://Personajes/bat/bat attack2 7.png" id="15_l5306"]
+[ext_resource type="Texture2D" uid="uid://bp2kcbei061v6" path="res://Personajes/bat/bat attack2 8.png" id="16_k4wg2"]
+[ext_resource type="Texture2D" uid="uid://8lkrwn080caq" path="res://Personajes/bat/bat attack2 9.png" id="17_a0otp"]
+[ext_resource type="Texture2D" uid="uid://cigit6mx4wswk" path="res://Personajes/bat/bat attack2 10.png" id="18_8fcte"]
+[ext_resource type="Texture2D" uid="uid://dfvlytfqi5o3v" path="res://Personajes/bat/bat attack2 11.png" id="19_1sitj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0g5lo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0gx7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1o6k5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a7fvh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xt4g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0rwg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_55sqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_brabc")
+}],
+"loop": 1,
+"name": &"bat attack 1",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_palai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q74g2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_km7xw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_c7cyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4e6um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_on2xf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_l5306")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_k4wg2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a0otp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8fcte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_1sitj")
+}],
+"loop": 1,
+"name": &"bat attack 2",
+"speed": 6.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=290302575]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=138037171]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"bat attack 1"
+frame_progress = 0.4247826
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=929660715]

@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://cm03aeghltm8w"]
+
+[ext_resource type="Texture2D" uid="uid://dp5g8lt7hh1b3" path="res://scene/tiles lava/Tiles_Lava_f01_01.png" id="1_wgsci"]
+[ext_resource type="Texture2D" uid="uid://bxdl7bfapcvih" path="res://scene/tiles lava/Tiles_Lava_f01_02.png" id="2_rt0gn"]
+[ext_resource type="Texture2D" uid="uid://b5hb6x68x3n26" path="res://scene/tiles lava/Tiles_Lava_f01_03.png" id="3_lba00"]
+[ext_resource type="Texture2D" uid="uid://dk8fhotu5mm5k" path="res://scene/tiles lava/Tiles_Lava_f01_04.png" id="4_xb317"]
+[ext_resource type="Texture2D" uid="uid://df71inpwc0h5r" path="res://scene/tiles lava/Tiles_Lava_f01_05.png" id="5_nmeur"]
+[ext_resource type="Texture2D" uid="uid://dawi0lmqibvf6" path="res://scene/tiles lava/Tiles_Lava_f01_06.png" id="6_vp48v"]
+[ext_resource type="Texture2D" uid="uid://cad4qt4pe057f" path="res://scene/tiles lava/Tiles_Lava_f01_07.png" id="7_11ped"]
+[ext_resource type="Texture2D" uid="uid://bm2ss1t8tawun" path="res://scene/tiles lava/Tiles_Lava_f01_08.png" id="8_etjqr"]
+[ext_resource type="Texture2D" uid="uid://crx3ymyjkgnsv" path="res://scene/tiles lava/Tiles_Lava_f01_09.png" id="9_3i38u"]
+[ext_resource type="Texture2D" uid="uid://kday6otck84k" path="res://scene/tiles lava/Tiles_Lava_f01_10.png" id="10_wg5xp"]
+[ext_resource type="Texture2D" uid="uid://bg5wfre1a1hmv" path="res://scene/tiles lava/Tiles_Lava_f01_11.png" id="11_w2bgp"]
+[ext_resource type="Texture2D" uid="uid://c6sxnylr4g2a0" path="res://scene/tiles lava/Tiles_Lava_f01_12.png" id="12_mxxi8"]
+[ext_resource type="Texture2D" uid="uid://b8k5kqrl1pp6l" path="res://scene/tiles lava/Tiles_Lava_f01_13.png" id="13_xedt5"]
+[ext_resource type="Texture2D" uid="uid://bndui674t2nbf" path="res://scene/tiles lava/Tiles_Lava_f01_14.png" id="14_cunhm"]
+[ext_resource type="Texture2D" uid="uid://d0bvybq4iqb3" path="res://scene/tiles lava/Tiles_Lava_f01_15.png" id="15_65n86"]
+[ext_resource type="Texture2D" uid="uid://bpapjrad4ioju" path="res://scene/tiles lava/Tiles_Lava_f01_16.png" id="16_hqjc0"]
+[ext_resource type="Texture2D" uid="uid://dd5jf8w83yl2s" path="res://scene/tiles lava/Tiles_Lava_f01_17.png" id="17_b5b54"]
+[ext_resource type="Texture2D" uid="uid://kyo4lyecthvq" path="res://scene/tiles lava/Tiles_Lava_f01_18.png" id="18_bmxww"]
+[ext_resource type="Texture2D" uid="uid://d08asahkhgmet" path="res://scene/tiles lava/Tiles_Lava_f01_19.png" id="19_3j1dq"]
+[ext_resource type="Texture2D" uid="uid://dajli3uyexiw1" path="res://scene/tiles lava/Tiles_Lava_f01_20.png" id="20_yg3p6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_wgsci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_rt0gn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lba00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xb317")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nmeur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vp48v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_11ped")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_etjqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3i38u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wg5xp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_w2bgp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mxxi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xedt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cunhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_65n86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hqjc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_b5b54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bmxww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3j1dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_yg3p6")
+}],
+"loop": 1,
+"name": &"tile 1",
+"speed": 16.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=632549742]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=583378261]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"tile 1"

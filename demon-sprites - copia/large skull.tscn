@@ -1,0 +1,194 @@
+[gd_scene format=3 uid="uid://b647t6o0huun0"]
+
+[ext_resource type="Script" uid="uid://byfhgyhxvo7nc" path="res://large_skull.gd" id="1_1te1n"]
+[ext_resource type="Texture2D" uid="uid://d2ffnv5jeojkn" path="res://Personajes/large skull/Large_Skull_f02_01.png" id="1_7wd5c"]
+[ext_resource type="Texture2D" uid="uid://jqw44pbxpk40" path="res://Personajes/large skull/Large_Skull_f02_02.png" id="2_1te1n"]
+[ext_resource type="Texture2D" uid="uid://1vk2xw57yflv" path="res://Personajes/large skull/Large_Skull_f02_03.png" id="3_cxwkq"]
+[ext_resource type="Texture2D" uid="uid://w13mt5cjoe0q" path="res://Personajes/large skull/Large_Skull_f02_04.png" id="4_i5fxm"]
+[ext_resource type="Texture2D" uid="uid://y5v0rubpxi0" path="res://Personajes/large skull/Large_Skull_f02_05.png" id="5_erl7c"]
+[ext_resource type="Texture2D" uid="uid://b8rh5dctph1np" path="res://Personajes/large skull/Large_Skull_f02_06.png" id="6_weec6"]
+[ext_resource type="Texture2D" uid="uid://dkwrigsvlxyd0" path="res://Personajes/large skull/Large_Skull_f02_07.png" id="7_u35qp"]
+[ext_resource type="Texture2D" uid="uid://dbcylgq2fil38" path="res://Personajes/large skull/Large_Skull_f02_08.png" id="8_rp7xx"]
+[ext_resource type="Texture2D" uid="uid://b0q1d1in0i5l1" path="res://Personajes/large skull/Large_Skull_f02_09.png" id="9_0pucb"]
+[ext_resource type="Texture2D" uid="uid://dq58q8nuc8bj2" path="res://Personajes/large skull/Large_Skull_f02_10.png" id="10_8p5br"]
+[ext_resource type="Texture2D" uid="uid://c3p8k6hh8clrk" path="res://Personajes/large skull/Large_Skull_f03_01.png" id="11_itb4l"]
+[ext_resource type="Texture2D" uid="uid://blfnkwp4c13y7" path="res://Personajes/large skull/Large_Skull_f03_02.png" id="12_uoyt0"]
+[ext_resource type="Texture2D" uid="uid://s2s6jxcgix11" path="res://Personajes/large skull/Large_Skull_f03_03.png" id="13_nb54x"]
+[ext_resource type="Texture2D" uid="uid://d0jva4pn6qiws" path="res://Personajes/large skull/Large_Skull_f03_04.png" id="14_egkwj"]
+[ext_resource type="Texture2D" uid="uid://bad6vtndvco3f" path="res://Personajes/large skull/Large_Skull_f03_05.png" id="15_0q67t"]
+[ext_resource type="Texture2D" uid="uid://cf3bms4gl3y6g" path="res://Personajes/large skull/Large_Skull_f03_06.png" id="16_5qy41"]
+[ext_resource type="Texture2D" uid="uid://ddbtrm05ocauj" path="res://Personajes/large skull/Large_Skull_f03_07.png" id="17_hw2o3"]
+[ext_resource type="Texture2D" uid="uid://cssrckiy73eau" path="res://Personajes/large skull/Large_Skull_f03_10.png" id="18_7cuos"]
+[ext_resource type="Texture2D" uid="uid://cecqt6qqkt1u8" path="res://Personajes/large skull/Large_Skull_f04_01.png" id="19_bfugh"]
+[ext_resource type="Texture2D" uid="uid://b2bgm17y161b7" path="res://Personajes/large skull/Large_Skull_f04_02.png" id="20_kdf4g"]
+[ext_resource type="Texture2D" uid="uid://cdw0xvpke6bgk" path="res://Personajes/large skull/Large_Skull_f04_03.png" id="21_usxpj"]
+[ext_resource type="Texture2D" uid="uid://mf4pyd4pcd64" path="res://Personajes/large skull/Large_Skull_f04_04.png" id="22_kbnlv"]
+[ext_resource type="Texture2D" uid="uid://de6wnccxtt0ua" path="res://Personajes/large skull/Large_Skull_f04_05.png" id="23_3vlfb"]
+[ext_resource type="Texture2D" uid="uid://bixr4l5punaam" path="res://Personajes/large skull/Large_Skull_f04_06.png" id="24_b3p7m"]
+[ext_resource type="Texture2D" uid="uid://clrh1d6feuhrb" path="res://Personajes/large skull/Large_Skull_f04_07.png" id="25_5us5q"]
+[ext_resource type="Texture2D" uid="uid://bjkrak6u1f0tb" path="res://Personajes/large skull/Large_Skull_f04_08.png" id="26_he2rn"]
+[ext_resource type="Texture2D" uid="uid://c3x31ujbtbdqo" path="res://Personajes/large skull/Large_Skull_f04_09.png" id="27_b3yy5"]
+[ext_resource type="Texture2D" uid="uid://dikm8ijnnf56" path="res://Personajes/large skull/Large_Skull_f04_10.png" id="28_auahk"]
+[ext_resource type="Texture2D" uid="uid://cftmlckd7jinq" path="res://Personajes/large skull/Large_Skull_f01_01.png" id="29_4eijo"]
+[ext_resource type="Texture2D" uid="uid://xhnjhotdnpm6" path="res://Personajes/large skull/Large_Skull_f01_02.png" id="30_e16yn"]
+[ext_resource type="Texture2D" uid="uid://d0akhfqk8oelp" path="res://Personajes/large skull/Large_Skull_f01_03.png" id="31_812w5"]
+[ext_resource type="Texture2D" uid="uid://gn23gaweolvt" path="res://Personajes/large skull/Large_Skull_f01_04.png" id="32_ca1fc"]
+[ext_resource type="Texture2D" uid="uid://bnsfeeyfd5e4n" path="res://Personajes/large skull/Large_Skull_f01_05.png" id="33_07syd"]
+[ext_resource type="Texture2D" uid="uid://dwp7q1vpinuwm" path="res://Personajes/large skull/Large_Skull_f01_06.png" id="34_pvjyy"]
+[ext_resource type="Texture2D" uid="uid://c5ew6m8ylkjhd" path="res://Personajes/large skull/Large_Skull_f01_07.png" id="35_q3qab"]
+[ext_resource type="Texture2D" uid="uid://brwhhums7ncga" path="res://Personajes/large skull/Large_Skull_f01_08.png" id="36_uqsl8"]
+[ext_resource type="Texture2D" uid="uid://85y4hf2dnodx" path="res://Personajes/large skull/Large_Skull_f01_09.png" id="37_api6i"]
+[ext_resource type="Texture2D" uid="uid://dnus0mtechdo2" path="res://Personajes/large skull/Large_Skull_f01_10.png" id="38_vaksv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7wd5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_1te1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cxwkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_i5fxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_erl7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_weec6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u35qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rp7xx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0pucb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8p5br")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8p5br")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_itb4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_uoyt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nb54x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_egkwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_0q67t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5qy41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hw2o3")
+}],
+"loop": 1,
+"name": &"atack large skull",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_hw2o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7cuos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bfugh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_kdf4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_usxpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kbnlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3vlfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_b3p7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5us5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_he2rn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_b3yy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_auahk")
+}],
+"loop": 1,
+"name": &"death large skull",
+"speed": 13.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_4eijo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_e16yn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_812w5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ca1fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_07syd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_pvjyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_q3qab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_uqsl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_api6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vaksv")
+}],
+"loop": 1,
+"name": &"idle large skull",
+"speed": 13.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yf5fn"]
+radius = 36.23534
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=200405438]
+script = ExtResource("1_1te1n")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1034558694]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"idle large skull"
+frame_progress = 0.3744785
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1021187698]
+position = Vector2(2, 10)
+shape = SubResource("CircleShape2D_yf5fn")

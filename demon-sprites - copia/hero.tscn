@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://c8785b14foe26"]
+
+[ext_resource type="Texture2D" uid="uid://ciykhvm0gio55" path="res://Personajes/hero/hero 1.png" id="1_7a23l"]
+[ext_resource type="Texture2D" uid="uid://bkww0e2dhi174" path="res://Personajes/hero/hero 2.png" id="2_kjpb2"]
+[ext_resource type="Texture2D" uid="uid://ceoa2yek2wxpt" path="res://Personajes/hero/hero 3.png" id="3_cj6ks"]
+[ext_resource type="Texture2D" uid="uid://cfkgsqkaoitv7" path="res://Personajes/hero/hero 4.png" id="4_h0fhm"]
+[ext_resource type="Texture2D" uid="uid://dgos587voc881" path="res://Personajes/hero/hero 5.png" id="5_e0f4q"]
+[ext_resource type="Texture2D" uid="uid://dyvc4h58n21yf" path="res://Personajes/hero/hero 6.png" id="6_xffbj"]
+[ext_resource type="Texture2D" uid="uid://8y0unxoug57l" path="res://Personajes/hero/hero 7.png" id="7_kh1b4"]
+[ext_resource type="Texture2D" uid="uid://dfj58im656vvb" path="res://Personajes/hero/hero 8.png" id="8_wlq1f"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7a23l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kjpb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cj6ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h0fhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_e0f4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xffbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_kh1b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wlq1f")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 9.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yf5fn"]
+radius = 16.0
+height = 76.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=187565295]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2135627455]
+position = Vector2(37, 19)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+frame_progress = 0.56692153
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1720728195]
+position = Vector2(32, 15)
+shape = SubResource("CapsuleShape2D_yf5fn")

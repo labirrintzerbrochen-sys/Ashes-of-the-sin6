@@ -1,0 +1,69 @@
+extends CharacterBody2D
+
+
+const SPEED = 300.0
+const JUMP_VELOCITY = -400.0
+
+@export var max_health: float = 7.5
+var current_health: float = 7.5
+var is_dead: bool = false
+
+# Referencia al nodo AnimatedSprite2D (asegúrate de que tenga este nombre en tu escena)
+@onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+
+
+func _physics_process(delta: float) -> void:
+	# Si está muerto, bloqueamos el movimiento y la física normal
+	if is_dead:
+		velocity.x = 0
+		if not is_on_floor():
+			velocity += get_gravity() * delta
+		move_and_slide()
+		return
+
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	# Handle jump.
+	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+
+	# Get the input direction and handle the movement/deceleration.
+	var direction := Input.get_axis("ui_left", "ui_right")
+	if direction:
+		velocity.x = direction * SPEED
+		# Opcional: Voltear el sprite según la dirección en la que se mueve
+		animated_sprite.flip_h = direction < 0
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+	# Manejo de animaciones
+	update_animations(direction)
+
+	move_and_slide()
+
+
+func update_animations(direction: float) -> void:
+	# Como tanto el estado de reposo (idle) como el movimiento usan el mismo sprite/animación:
+	animated_sprite.play("idle skull")
+
+
+# Función para recibir daño (puedes llamarla desde las áreas de daño o enemigos)
+func take_damage(amount: float = 2.5) -> void:
+	if is_dead:
+		return
+
+	current_health -= amount
+	print("Salud actual: ", current_health)
+
+	if current_health <= 0:
+		die()
+
+
+# Función de muerte
+func die() -> void:
+	is_dead = true
+	velocity = Vector2.ZERO
+	animated_sprite.play("death skull")
+	

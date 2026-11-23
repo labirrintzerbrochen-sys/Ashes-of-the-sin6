@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://be8wm3u3oy14h"]
+
+[ext_resource type="Script" uid="uid://cwa5bp4hhpx7c" path="res://demon_eye.gd" id="1_jt83d"]
+[ext_resource type="Texture2D" uid="uid://c0jjhx1tcrlms" path="res://Personajes/demon eye/Demon_eye_f01_07.png" id="1_yf1pn"]
+[ext_resource type="Texture2D" uid="uid://dch1nnbbomujk" path="res://Personajes/demon eye/Demon_eye_f02_01.png" id="2_jt83d"]
+[ext_resource type="Texture2D" uid="uid://bx15j24xfk4aj" path="res://Personajes/demon eye/Demon_eye_f02_02.png" id="3_m3465"]
+[ext_resource type="Texture2D" uid="uid://co16m7pdpcf2q" path="res://Personajes/demon eye/Demon_eye_f02_03.png" id="4_178vs"]
+[ext_resource type="Texture2D" uid="uid://bk32dumedf47y" path="res://Personajes/demon eye/Demon_eye_f02_04.png" id="5_heglr"]
+[ext_resource type="Texture2D" uid="uid://c4ij465a6xo0u" path="res://Personajes/demon eye/Demon_eye_f02_05.png" id="6_ww4vu"]
+[ext_resource type="Texture2D" uid="uid://17ubv1b28qmc" path="res://Personajes/demon eye/Demon_eye_f02_06.png" id="7_k3by5"]
+[ext_resource type="Texture2D" uid="uid://utobvqfoe5b1" path="res://Personajes/demon eye/Demon_eye_f01_01.png" id="8_efblp"]
+[ext_resource type="Texture2D" uid="uid://bkm22tg6665jv" path="res://Personajes/demon eye/Demon_eye_f01_02.png" id="9_wydik"]
+[ext_resource type="Texture2D" uid="uid://c4ictig7x14n3" path="res://Personajes/demon eye/Demon_eye_f01_03.png" id="10_e727l"]
+[ext_resource type="Texture2D" uid="uid://h20s0o3bjm0d" path="res://Personajes/demon eye/Demon_eye_f01_04.png" id="11_mw15f"]
+[ext_resource type="Texture2D" uid="uid://bv145sstffbcu" path="res://Personajes/demon eye/Demon_eye_f01_05.png" id="12_8bbmb"]
+[ext_resource type="Texture2D" uid="uid://cueehaiet6hsk" path="res://Personajes/demon eye/Demon_eye_f01_06.png" id="13_74acm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_yf1pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jt83d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_m3465")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_178vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_heglr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ww4vu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_k3by5")
+}],
+"loop": 1,
+"name": &"death demon eye",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_efblp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wydik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_e727l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mw15f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_8bbmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_74acm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_yf1pn")
+}],
+"loop": 1,
+"name": &"idle demon eye",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7quhl"]
+radius = 14.142136
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=744620681]
+script = ExtResource("1_jt83d")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=574867021]
+position = Vector2(41, -9)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"death demon eye"
+frame_progress = 0.559827
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1906698136]
+position = Vector2(41, -11)
+shape = SubResource("CircleShape2D_7quhl")

@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://bwbjoxv6blgmf"]
+
+[ext_resource type="Script" uid="uid://ch8ffiio0p7sq" path="res://burning_skull.gd" id="1_7quhl"]
+[ext_resource type="Texture2D" uid="uid://dj47cl6dkafsh" path="res://Personajes/burning skull/Burning_Skull_f01_05.png" id="1_tg4lk"]
+[ext_resource type="Texture2D" uid="uid://hvorekc6tcdq" path="res://Personajes/burning skull/Burning_Skull_f02_01.png" id="2_7quhl"]
+[ext_resource type="Texture2D" uid="uid://bcr7nk7l4bnl3" path="res://Personajes/burning skull/Burning_Skull_f02_02.png" id="3_nu27q"]
+[ext_resource type="Texture2D" uid="uid://bexfsfjdcmh6y" path="res://Personajes/burning skull/Burning_Skull_f02_03.png" id="4_gk4ba"]
+[ext_resource type="Texture2D" uid="uid://c0v5xp1aybmqs" path="res://Personajes/burning skull/Burning_Skull_f02_04.png" id="5_6fnkq"]
+[ext_resource type="Texture2D" uid="uid://ttc6ewm26ix" path="res://Personajes/burning skull/Burning_Skull_f02_05.png" id="6_1k0fx"]
+[ext_resource type="Texture2D" uid="uid://7cyjhdxthgnh" path="res://Personajes/burning skull/Burning_Skull_f02_06.png" id="7_d6j11"]
+[ext_resource type="Texture2D" uid="uid://cmdm8126iimfl" path="res://Personajes/burning skull/Burning_Skull_f02_07.png" id="8_4ohii"]
+[ext_resource type="Texture2D" uid="uid://wva8mhrsj2m4" path="res://Personajes/burning skull/Burning_Skull_f01_01.png" id="9_e5dja"]
+[ext_resource type="Texture2D" uid="uid://d4ey5ngjw1ydc" path="res://Personajes/burning skull/Burning_Skull_f01_02.png" id="10_5daw6"]
+[ext_resource type="Texture2D" uid="uid://bys6ci4tnfevw" path="res://Personajes/burning skull/Burning_Skull_f01_03.png" id="11_v6o0c"]
+[ext_resource type="Texture2D" uid="uid://csv1pgl1uxd4k" path="res://Personajes/burning skull/Burning_Skull_f01_04.png" id="12_bcu64"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tg4lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_7quhl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nu27q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_gk4ba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6fnkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1k0fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_d6j11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4ohii")
+}],
+"loop": 1,
+"name": &"death skull",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_e5dja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_5daw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_v6o0c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bcu64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_tg4lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_tg4lk")
+}],
+"loop": 1,
+"name": &"idle skull",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yf5fn"]
+radius = 10.770329
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=942546041]
+script = ExtResource("1_7quhl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1303302312]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"death skull"
+frame_progress = 0.85242337
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1260691266]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_yf5fn")

@@ -1,0 +1,187 @@
+[gd_scene format=3 uid="uid://bflqgf2cx8fn0"]
+
+[ext_resource type="Script" uid="uid://lrage1gpn14b" path="res://archer.gd" id="1_c1vqn"]
+[ext_resource type="Texture2D" uid="uid://cx58nmlkgs74h" path="res://Personajes/archer/death 1.png" id="1_vi4kr"]
+[ext_resource type="Texture2D" uid="uid://d4b1p5vv26s1h" path="res://Personajes/archer/death 2.png" id="2_c1vqn"]
+[ext_resource type="Texture2D" uid="uid://dlj3t4fifa1vn" path="res://Personajes/archer/death 3.png" id="3_k3rjl"]
+[ext_resource type="Texture2D" uid="uid://bb2vx56dpovoi" path="res://Personajes/archer/death 4.png" id="4_6gyj1"]
+[ext_resource type="Texture2D" uid="uid://ut6dvd2kmk5i" path="res://Personajes/archer/death 5.png" id="5_75eug"]
+[ext_resource type="Texture2D" uid="uid://ce67c02umr810" path="res://Personajes/archer/death 6.png" id="6_3qh6a"]
+[ext_resource type="Texture2D" uid="uid://cjepuiudm47ie" path="res://Personajes/archer/hurt 1.png" id="7_4r300"]
+[ext_resource type="Texture2D" uid="uid://fhy2usouu1uo" path="res://Personajes/archer/hurt 2.png" id="8_i70ex"]
+[ext_resource type="Texture2D" uid="uid://dg07x46f3tu7f" path="res://Personajes/archer/hurt 3.png" id="9_7nm0f"]
+[ext_resource type="Texture2D" uid="uid://b5l23efwitgpa" path="res://Personajes/archer/hurt 4.png" id="10_4vmkg"]
+[ext_resource type="Texture2D" uid="uid://txvtw87tcgho" path="res://Personajes/archer/hurt 5.png" id="11_colr2"]
+[ext_resource type="Texture2D" uid="uid://vkhhso64h1lu" path="res://Personajes/archer/idle 1.png" id="12_lu4a0"]
+[ext_resource type="Texture2D" uid="uid://dydgxhy0n1pku" path="res://Personajes/archer/idle 2.png" id="13_skxod"]
+[ext_resource type="Texture2D" uid="uid://dwufh01qoja77" path="res://Personajes/archer/idle 3.png" id="14_lt2w2"]
+[ext_resource type="Texture2D" uid="uid://d0vvnih5b46cb" path="res://Personajes/archer/idle 4.png" id="15_g7flk"]
+[ext_resource type="Texture2D" uid="uid://ck8pfn4mehq8l" path="res://Personajes/archer/idle 5.png" id="16_c2d1h"]
+[ext_resource type="Texture2D" uid="uid://bg6bei7nqh2kj" path="res://Personajes/archer/shoot 1.png" id="17_7qlg0"]
+[ext_resource type="Texture2D" uid="uid://bc85o1s1u3e6k" path="res://Personajes/archer/shoot 2.png" id="18_6umwu"]
+[ext_resource type="Texture2D" uid="uid://cw8un7lkqs1ke" path="res://Personajes/archer/shoot 3.png" id="19_yw6rf"]
+[ext_resource type="Texture2D" uid="uid://ppp1qxib1y07" path="res://Personajes/archer/shoot 4.png" id="20_palyj"]
+[ext_resource type="Texture2D" uid="uid://ctcpvcv1tl2pe" path="res://Personajes/archer/shoot 5.png" id="21_gtmmf"]
+[ext_resource type="Texture2D" uid="uid://bmdf5gak572xo" path="res://Personajes/archer/shoot 6.png" id="22_j4nq3"]
+[ext_resource type="Texture2D" uid="uid://dgb2a4jdb5pek" path="res://Personajes/archer/shoot 7.png" id="23_xhln3"]
+[ext_resource type="Texture2D" uid="uid://cvi7dbovxf3ca" path="res://Personajes/archer/shoot 8.png" id="24_5ofi3"]
+[ext_resource type="Texture2D" uid="uid://ccdhv5udu2b60" path="res://Personajes/archer/shoot 9.png" id="25_ltg7n"]
+[ext_resource type="Texture2D" uid="uid://c2wvpewop2a4k" path="res://Personajes/archer/shoot 10.png" id="26_lltvd"]
+[ext_resource type="Texture2D" uid="uid://76h6udjn11gc" path="res://Personajes/archer/shoot 11.png" id="27_3syt4"]
+[ext_resource type="Texture2D" uid="uid://bs1r1ei86sbo5" path="res://Personajes/archer/walk 1.png" id="28_5f1ov"]
+[ext_resource type="Texture2D" uid="uid://c6c1mvnlnwk3t" path="res://Personajes/archer/walk 2.png" id="29_acojn"]
+[ext_resource type="Texture2D" uid="uid://pt47pgjb72y7" path="res://Personajes/archer/walk 3.png" id="30_1xle1"]
+[ext_resource type="Texture2D" uid="uid://c3p3cyvsf01de" path="res://Personajes/archer/walk 4.png" id="31_v7k72"]
+[ext_resource type="Texture2D" uid="uid://cqnmr2xk767ny" path="res://Personajes/archer/walk 5.png" id="32_jxv82"]
+[ext_resource type="Texture2D" uid="uid://d0w24x6o62q6f" path="res://Personajes/archer/walk 6.png" id="33_457dq"]
+[ext_resource type="Texture2D" uid="uid://kuijk5x70hmi" path="res://Personajes/archer/walk 7.png" id="34_btfe6"]
+[ext_resource type="Texture2D" uid="uid://cm554y0d4pvy5" path="res://Personajes/archer/walk 8.png" id="35_8oab2"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vi4kr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_c1vqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k3rjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6gyj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_75eug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3qh6a")
+}],
+"loop": 1,
+"name": &"death archer",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_4r300")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_i70ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7nm0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4vmkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_colr2")
+}],
+"loop": 1,
+"name": &"hurt archer",
+"speed": 11.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_lu4a0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_skxod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lt2w2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_g7flk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_c2d1h")
+}],
+"loop": 1,
+"name": &"idle archer",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_7qlg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_6umwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_yw6rf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_palyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_gtmmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_j4nq3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xhln3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5ofi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ltg7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lltvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_3syt4")
+}],
+"loop": 1,
+"name": &"shoot archer",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_5f1ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_acojn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_1xle1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_v7k72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_jxv82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_457dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_btfe6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_8oab2")
+}],
+"loop": 1,
+"name": &"walk archer",
+"speed": 6.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6t5om"]
+radius = 12.0
+height = 40.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1895688253]
+script = ExtResource("1_c1vqn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1156662069]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"death archer"
+frame_progress = 0.7138394
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1260025734]
+position = Vector2(-7, 12)
+shape = SubResource("CapsuleShape2D_6t5om")

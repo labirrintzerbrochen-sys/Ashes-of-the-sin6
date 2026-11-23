@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://dnhyunxla5k8g"]
+
+[ext_resource type="Script" uid="uid://ce4b8j1kdsll0" path="res://flying_demon_head.gd" id="1_0a6i2"]
+[ext_resource type="Texture2D" uid="uid://due0m2gmskwk" path="res://Personajes/flying demon/Flying_Demon_Head_f01_05.png" id="1_utvfn"]
+[ext_resource type="Texture2D" uid="uid://dnvw2m455b7m2" path="res://Personajes/flying demon/Flying_Demon_Head_f02_01.png" id="2_0a6i2"]
+[ext_resource type="Texture2D" uid="uid://cuh6rk4aisvug" path="res://Personajes/flying demon/Flying_Demon_Head_f02_02.png" id="3_a5kgr"]
+[ext_resource type="Texture2D" uid="uid://dwt62vu1gp3g6" path="res://Personajes/flying demon/Flying_Demon_Head_f02_03.png" id="4_nal0o"]
+[ext_resource type="Texture2D" uid="uid://3k0vntp1ojp8" path="res://Personajes/flying demon/Flying_Demon_Head_f02_04.png" id="5_ef4x6"]
+[ext_resource type="Texture2D" uid="uid://b57lpma4todwu" path="res://Personajes/flying demon/Flying_Demon_Head_f02_05.png" id="6_dsknu"]
+[ext_resource type="Texture2D" uid="uid://lowstbaqivqm" path="res://Personajes/flying demon/Flying_Demon_Head_f02_06.png" id="7_ic4iu"]
+[ext_resource type="Texture2D" uid="uid://birusyoneq2tx" path="res://Personajes/flying demon/Flying_Demon_Head_f01_01.png" id="8_orxrr"]
+[ext_resource type="Texture2D" uid="uid://derfm21ya30vi" path="res://Personajes/flying demon/Flying_Demon_Head_f01_02.png" id="9_q25dd"]
+[ext_resource type="Texture2D" uid="uid://be1y633gly81" path="res://Personajes/flying demon/Flying_Demon_Head_f01_03.png" id="10_atgpx"]
+[ext_resource type="Texture2D" uid="uid://da7cyviiktffs" path="res://Personajes/flying demon/Flying_Demon_Head_f01_04.png" id="11_2yuyc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_utvfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0a6i2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_a5kgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nal0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ef4x6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dsknu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ic4iu")
+}],
+"loop": 1,
+"name": &"death flying demon head",
+"speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_orxrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_q25dd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_atgpx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2yuyc")
+}],
+"loop": 1,
+"name": &"idle flying demon head",
+"speed": 9.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yf5fn"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2106276021]
+script = ExtResource("1_0a6i2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1293802660]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"death flying demon head"
+frame_progress = 0.037325975
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=300375959]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_yf5fn")

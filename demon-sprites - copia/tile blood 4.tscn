@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://citfssga65i7c"]
+
+[ext_resource type="Texture2D" uid="uid://bco3je1q3b6at" path="res://scene/tiless blood/Tiles_Blood_f08_01.png" id="1_ojmaq"]
+[ext_resource type="Texture2D" uid="uid://cipycsmaxgb84" path="res://scene/tiless blood/Tiles_Blood_f08_02.png" id="2_4o8bn"]
+[ext_resource type="Texture2D" uid="uid://brlbc147154mu" path="res://scene/tiless blood/Tiles_Blood_f08_03.png" id="3_mhq1o"]
+[ext_resource type="Texture2D" uid="uid://dbm1bar7y0hb5" path="res://scene/tiless blood/Tiles_Blood_f08_04.png" id="4_ks6y6"]
+[ext_resource type="Texture2D" uid="uid://bte8qhr1io8y2" path="res://scene/tiless blood/Tiles_Blood_f08_05.png" id="5_112j3"]
+[ext_resource type="Texture2D" uid="uid://clyg0n3ruhib5" path="res://scene/tiless blood/Tiles_Blood_f08_06.png" id="6_7b0mh"]
+[ext_resource type="Texture2D" uid="uid://dbmkwpgjjrkmp" path="res://scene/tiless blood/Tiles_Blood_f08_07.png" id="7_i1id5"]
+[ext_resource type="Texture2D" uid="uid://7vrd4sagkg27" path="res://scene/tiless blood/Tiles_Blood_f08_08.png" id="8_6g15c"]
+[ext_resource type="Texture2D" uid="uid://xchp7pady2ec" path="res://scene/tiless blood/Tiles_Blood_f08_09.png" id="9_vsdck"]
+[ext_resource type="Texture2D" uid="uid://ds0lfueeelg1v" path="res://scene/tiless blood/Tiles_Blood_f08_10.png" id="10_hm3fg"]
+[ext_resource type="Texture2D" uid="uid://5csjayxj1e3p" path="res://scene/tiless blood/Tiles_Blood_f08_11.png" id="11_jud6k"]
+[ext_resource type="Texture2D" uid="uid://cc03vq3pxuo4b" path="res://scene/tiless blood/Tiles_Blood_f08_12.png" id="12_j2iwf"]
+[ext_resource type="Texture2D" uid="uid://c7sjvapgx0k7l" path="res://scene/tiless blood/Tiles_Blood_f08_13.png" id="13_up2nk"]
+[ext_resource type="Texture2D" uid="uid://cuqp1wrolk0jd" path="res://scene/tiless blood/Tiles_Blood_f08_14.png" id="14_4jk3o"]
+[ext_resource type="Texture2D" uid="uid://gw1hrpset1qp" path="res://scene/tiless blood/Tiles_Blood_f08_15.png" id="15_45hoh"]
+[ext_resource type="Texture2D" uid="uid://7fa1ooddhv7b" path="res://scene/tiless blood/Tiles_Blood_f08_16.png" id="16_ctpj2"]
+[ext_resource type="Texture2D" uid="uid://cnm6ys074odcg" path="res://scene/tiless blood/Tiles_Blood_f08_17.png" id="17_hyr87"]
+[ext_resource type="Texture2D" uid="uid://cpyk5gkriqesm" path="res://scene/tiless blood/Tiles_Blood_f08_18.png" id="18_rdts1"]
+[ext_resource type="Texture2D" uid="uid://cnfiyyrysjp3d" path="res://scene/tiless blood/Tiles_Blood_f08_19.png" id="19_bh0ep"]
+[ext_resource type="Texture2D" uid="uid://exah1mf36men" path="res://scene/tiless blood/Tiles_Blood_f08_20.png" id="20_h5dhk"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ojmaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4o8bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_mhq1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ks6y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_112j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7b0mh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_i1id5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6g15c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vsdck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_hm3fg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_jud6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_j2iwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_up2nk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_4jk3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_45hoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ctpj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_hyr87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_rdts1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_bh0ep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_h5dhk")
+}],
+"loop": 1,
+"name": &"tile 4",
+"speed": 16.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1662367812]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=107488728]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"tile 4"

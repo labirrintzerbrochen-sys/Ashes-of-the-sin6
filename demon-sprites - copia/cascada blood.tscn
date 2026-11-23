@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://dx7wa6y4stxhd"]
+
+[ext_resource type="Texture2D" uid="uid://b0lb2m4lwside" path="res://scene/bloood/Cascada_Sangre_f01.png" id="1_xovf6"]
+[ext_resource type="Texture2D" uid="uid://uvuv1ht5yypv" path="res://scene/bloood/Cascada_Sangre_f02.png" id="2_wh0qf"]
+[ext_resource type="Texture2D" uid="uid://cb084bk5dlnrv" path="res://scene/bloood/Cascada_Sangre_f03.png" id="3_1ikpj"]
+[ext_resource type="Texture2D" uid="uid://cv1bb6suwd75f" path="res://scene/bloood/Cascada_Sangre_f04.png" id="4_40ccq"]
+[ext_resource type="Texture2D" uid="uid://beyph2fqkj3qi" path="res://scene/bloood/Cascada_Sangre_f05.png" id="5_am5dl"]
+[ext_resource type="Texture2D" uid="uid://il8rm320wcc0" path="res://scene/bloood/Cascada_Sangre_f06.png" id="6_un65x"]
+[ext_resource type="Texture2D" uid="uid://cpnd7j5pj84fb" path="res://scene/bloood/Cascada_Sangre_f07.png" id="7_68lo4"]
+[ext_resource type="Texture2D" uid="uid://b6b31uwgm1hmr" path="res://scene/bloood/Cascada_Sangre_f08.png" id="8_ixti2"]
+[ext_resource type="Texture2D" uid="uid://b0kiw0mi3ba6b" path="res://scene/bloood/Cascada_Sangre_f09.png" id="9_ht5pt"]
+[ext_resource type="Texture2D" uid="uid://blyiq4r4y0x2m" path="res://scene/bloood/Cascada_Sangre_f10.png" id="10_g51jq"]
+[ext_resource type="Texture2D" uid="uid://bqxe4kchw63am" path="res://scene/bloood/Cascada_Sangre_f11.png" id="11_gkobg"]
+[ext_resource type="Texture2D" uid="uid://cnd04o60jg4xa" path="res://scene/bloood/Cascada_Sangre_f12.png" id="12_lqsco"]
+[ext_resource type="Texture2D" uid="uid://c2ioxmvyli27f" path="res://scene/bloood/Cascada_Sangre_f13.png" id="13_hgpq1"]
+[ext_resource type="Texture2D" uid="uid://3jpp20in73n0" path="res://scene/bloood/Cascada_Sangre_f14.png" id="14_3cn7i"]
+[ext_resource type="Texture2D" uid="uid://bfurgc52hk4q1" path="res://scene/bloood/Cascada_Sangre_f15.png" id="15_rf18v"]
+[ext_resource type="Texture2D" uid="uid://bqcb03kqtr7yg" path="res://scene/bloood/Cascada_Sangre_f16.png" id="16_umuo5"]
+[ext_resource type="Texture2D" uid="uid://wa7666pvrwnn" path="res://scene/bloood/Cascada_Sangre_f17.png" id="17_k7kn3"]
+[ext_resource type="Texture2D" uid="uid://xb525382fg4y" path="res://scene/bloood/Cascada_Sangre_f18.png" id="18_gidh2"]
+[ext_resource type="Texture2D" uid="uid://bh16kle375c8q" path="res://scene/bloood/Cascada_Sangre_f19.png" id="19_pn4op"]
+[ext_resource type="Texture2D" uid="uid://bh5u1wafvgxn7" path="res://scene/bloood/Cascada_Sangre_f20.png" id="20_38cvn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xovf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wh0qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1ikpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_40ccq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_am5dl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_un65x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_68lo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ixti2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ht5pt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_g51jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gkobg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_lqsco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_hgpq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3cn7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_rf18v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_umuo5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_k7kn3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_gidh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pn4op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_38cvn")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 18.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1529720777]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1576107046]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+frame_progress = 0.7113002

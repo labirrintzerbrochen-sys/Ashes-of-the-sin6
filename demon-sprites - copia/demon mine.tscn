@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://cd6wk3lhfc47v"]
+
+[ext_resource type="Texture2D" uid="uid://hevfumm4g6np" path="res://Personajes/demon mine/Demon_Mine_f02_01.png" id="1_77umv"]
+[ext_resource type="Script" uid="uid://den7srgj2iao" path="res://demon_mine.gd" id="1_b6eqi"]
+[ext_resource type="Texture2D" uid="uid://b7vmtldgdoq62" path="res://Personajes/demon mine/Demon_Mine_f02_02.png" id="2_b6eqi"]
+[ext_resource type="Texture2D" uid="uid://dxgxywp4dcmbr" path="res://Personajes/demon mine/Demon_Mine_f02_03.png" id="3_w3c5e"]
+[ext_resource type="Texture2D" uid="uid://sda2kl16hm5a" path="res://Personajes/demon mine/Demon_Mine_f02_04.png" id="4_rve6x"]
+[ext_resource type="Texture2D" uid="uid://c5dm64wp5ipn3" path="res://Personajes/demon mine/Demon_Mine_f02_05.png" id="5_m5sjt"]
+[ext_resource type="Texture2D" uid="uid://dthv0e5tjwdji" path="res://Personajes/demon mine/Demon_Mine_f02_06.png" id="6_655hp"]
+[ext_resource type="Texture2D" uid="uid://dwljjjdxnu47v" path="res://Personajes/demon mine/Demon_Mine_f02_07.png" id="7_tgjiv"]
+[ext_resource type="Texture2D" uid="uid://cnuecpmnlaiwb" path="res://Personajes/demon mine/Demon_Mine_f01_01.png" id="8_ddfmc"]
+[ext_resource type="Texture2D" uid="uid://d4akheaqnkr8t" path="res://Personajes/demon mine/Demon_Mine_f01_02.png" id="9_mt3o7"]
+[ext_resource type="Texture2D" uid="uid://bnlmin86doo5b" path="res://Personajes/demon mine/Demon_Mine_f01_03.png" id="10_1vm7b"]
+[ext_resource type="Texture2D" uid="uid://fiffvu8ro4r5" path="res://Personajes/demon mine/Demon_Mine_f01_04.png" id="11_4ioxw"]
+[ext_resource type="Texture2D" uid="uid://3x0r5xea3gcm" path="res://Personajes/demon mine/Demon_Mine_f01_06.png" id="12_ync1b"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_spd4m"]
+load_path = "res://.godot/imported/Demon_Mine_f01_05.png-aa383d712e03d0c26de3186cb5ad50d8.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_77umv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_b6eqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_w3c5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rve6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_m5sjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_655hp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tgjiv")
+}],
+"loop": 1,
+"name": &"death demon mine",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_ddfmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mt3o7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_1vm7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4ioxw")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_spd4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ync1b")
+}],
+"loop": 1,
+"name": &"idle demon mine",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ydexs"]
+radius = 20.024984
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
+radius = 19.026299
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=998331458]
+script = ExtResource("1_b6eqi")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1525488028]
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"death demon mine"
+frame_progress = 0.3108017
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1029433415]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_ydexs")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=274541593]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=640261692]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_g4v7s")

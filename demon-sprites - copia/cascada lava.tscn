@@ -1,0 +1,138 @@
+[gd_scene format=3 uid="uid://cxnwx1hyleww6"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bm4x0"]
+load_path = "res://.godot/imported/Cascada_Lava_f01.png-84d81ad3e952d950018dc9e685619176.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5se1p"]
+load_path = "res://.godot/imported/Cascada_Lava_f02.png-67943a0c2ca8a8a75d53bcf286863ff6.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_s5ofl"]
+load_path = "res://.godot/imported/Cascada_Lava_f03.png-9b33414d287461dddeb8a07c67db8e14.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8bwwx"]
+load_path = "res://.godot/imported/Cascada_Lava_f04.png-3f54738074d51082a1d00989fa4cc7d5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_bnvkf"]
+load_path = "res://.godot/imported/Cascada_Lava_f05.png-47974c0c4f0a03c4a737b7abfe4e2773.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lbquo"]
+load_path = "res://.godot/imported/Cascada_Lava_f06.png-4150407a6b683eced5435e2517e4da5f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_upu58"]
+load_path = "res://.godot/imported/Cascada_Lava_f07.png-6bde0406179d785d291ef441e512e0c7.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mvgve"]
+load_path = "res://.godot/imported/Cascada_Lava_f08.png-806135d9a05269456c8d4e313f83ca16.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3dp5f"]
+load_path = "res://.godot/imported/Cascada_Lava_f09.png-fd8cfdbe9d6e23358f360c56808336f6.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_d0365"]
+load_path = "res://.godot/imported/Cascada_Lava_f10.png-1db9847f9c7cb0e21ba2cd23d0e531be.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_og62u"]
+load_path = "res://.godot/imported/Cascada_Lava_f11.png-99563196c76417e69d2efb29859f6fd4.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e7s0h"]
+load_path = "res://.godot/imported/Cascada_Lava_f12.png-7a07666c6836e7bd27406aada539ab2b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_34p05"]
+load_path = "res://.godot/imported/Cascada_Lava_f13.png-e0328a5c306306700564b39b60eeab24.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tgs1s"]
+load_path = "res://.godot/imported/Cascada_Lava_f14.png-f193b100d6d9d4ff1d1fff5f94b74650.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ruxc4"]
+load_path = "res://.godot/imported/Cascada_Lava_f15.png-6c354a92b0d6cb2aaf8bd017857fcd25.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0ejl1"]
+load_path = "res://.godot/imported/Cascada_Lava_f16.png-8b5d192ba32fb03ccff8fe48a21e67b5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r0kwm"]
+load_path = "res://.godot/imported/Cascada_Lava_f17.png-d1523429945df729cf0725bbc6b13ec3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_15553"]
+load_path = "res://.godot/imported/Cascada_Lava_f18.png-ad5f5f4cf631114a1f5ff15f0798252b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8qoqr"]
+load_path = "res://.godot/imported/Cascada_Lava_f19.png-6e1095af153ae9283e864ffcff106cb0.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0jxsh"]
+load_path = "res://.godot/imported/Cascada_Lava_f20.png-8e591f6c8d0cf6b66392636fbf21d2e9.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bm4x0")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_5se1p")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_s5ofl")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_8bwwx")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_bnvkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_lbquo")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_upu58")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_mvgve")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_3dp5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_d0365")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_og62u")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_e7s0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_34p05")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_tgs1s")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_ruxc4")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_0ejl1")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_r0kwm")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_15553")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_8qoqr")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_0jxsh")
+}],
+"loop": 1,
+"name": &"cascada lava",
+"speed": 18.0
+}]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=50258879]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2013478449]
+position = Vector2(119.00001, 125.00001)
+scale = Vector2(1.8125004, 2.015625)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"cascada lava"
+frame_progress = 0.24335387
